@@ -62,6 +62,7 @@ class HitungFragment : Fragment() {
 
     }
 
+
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.options_menu, menu)
@@ -139,4 +140,5 @@ class HitungFragment : Fragment() {
         }
         return getString(stringRes)
     }
+
 }
